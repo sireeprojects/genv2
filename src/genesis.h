@@ -19,6 +19,7 @@ enum generate_type {
 };
 
 
+// format for storing the field info inside the txn class
 struct genesis_txn_storage_element {
     uint32_t id;
     uint32_t offset;
