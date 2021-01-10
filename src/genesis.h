@@ -94,6 +94,9 @@ private: // internal storage
 
     void print_mem();
 
+    // fill mem with all fields with default values
+    void reset_mem();
+
 private: // unit tests
     void test_mem();
 };
@@ -127,6 +130,10 @@ uint64_t genesis_txn::get(field_id id) {
 
 genesis_txn::genesis_txn() {
     print_mem();
+}
+
+
+void genesis_txn::reset_mem() {
 }
 
 
