@@ -1,0 +1,2 @@
+Replace Multiple empty lines with a single empty line
+cat -s [filename] > [new filename]
